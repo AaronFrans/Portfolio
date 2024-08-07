@@ -3,7 +3,6 @@
     <div class="nav-bar">
       <router-link to="/">About me</router-link>
       <router-link to="/game-projects">Stuff</router-link>
-      <router-link to="/other-projects">Other stuff</router-link>
       <router-link to="/resume">Resume</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>
@@ -14,7 +13,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "Header"
+  name: "MainHeader"
 });
 
 </script>
