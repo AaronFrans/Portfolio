@@ -14,13 +14,12 @@
       <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a>
         <div style="clear:both"></div>
       </div>
     </div>
     <div class="photo">
-      <img :src="`/img/resume-photo.png`" alt="Photo of John" />
+      <img :src="`/img/resume-photo.png`" alt="Photo of Aaron" />
     </div>
 
     <div style="clear:both"></div>
