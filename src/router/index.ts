@@ -1,4 +1,4 @@
-import { createRouter as _createRouter, createWebHistory } from 'vue-router'
+import { createRouter as _createRouter, createWebHashHistory } from 'vue-router'
 
 // route-level code splitting
 const AboutView = () => import('../views/About.vue');
@@ -9,22 +9,22 @@ const E404View = () => import('../views/404.vue')
 
 export function createRouter(){
   return _createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: [
       {
         path: '/',
         name: 'Root',
+        component: GameView
+      },
+      {
+        path: '/about-me',
+        name: 'About',
         component: AboutView
       },
       {
         path: '/resume',
         name: 'Resume',
         component: ResumeView
-      },
-      {
-        path: '/game-projects',
-        name: 'Game Projects',
-        component: GameView
       },
       {
         path: '/contact',
