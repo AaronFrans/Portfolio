@@ -3,7 +3,7 @@ import ProjectData from '@/data/ProjectData.ts'
 export default [
     new ProjectData("Overseer", "Underworld Overseer", "img/projects/Overseer.jpg", `
     <div class="paragraph">
-        <strong>Underworld Overseer</strong> is a game I started working on during my internship at Myron Games. After my internship ended, I stayed on to work on the game until we feature-stopped it, right before QA testing. While working on this project, I added several features to the game. I updated the existing AI to allow for a new creature to do its job. I also added a new spell to the game and worked on a few of the traps. During my stay at Myron, I also started working on some internal Blender add-ons to allow for a smoother workflow.
+        <strong>Underworld Overseer</strong> is a game I started working on during my internship at Myron Games. After my internship ended, I stayed until the end of the project, right before QA testing.<br /> While working on this project, I added several features to the game. I updated the existing AI to allow for a new creature to do its job.I also added a new spell to the game and worked on a few of the traps.<br /> During my stay at Myron, I also started working on some internal Blender add-ons to allow for a smoother workflow.
     </div>
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/Lp1ScH8JPB4?si=I2cB3KJxa3lGquO8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
@@ -12,6 +12,11 @@ export default [
     <div class="paragraph">
         <div class="notice">
         Find the game on steam at <a href="https://store.steampowered.com/app/2909910/Underworld_Overseer/" target="_blank">Underworld Overseer</a>.
+    </div>
+
+    <div class="paragraph">
+        The unit i made while at Myron is the Bone Fairy. The Bone Fairy goes around and collects corpses for the player, once they have a corpse they will bring this corpse to a cemetery. This allows the player to easily resurrect them and get more value out of their necromancy spell.<br />
+        This was a really interesting experience since it allowed me to delve into existing AI systems and update them for this new functionality.
     </div>
 
     <div class="paragraph center">
@@ -48,7 +53,7 @@ export default [
     </div>
     </div>
     `, "#23bd69"),
-    new ProjectData("API Pokédex", "Pokédex with API", "img/projects/Details_Page.png", `
+    new ProjectData("API Pokédex", "Pokédex with API", "img/projects/Pokedex_API_Video.gif", `
     <div class="paragraph center">
         <div class="notice error">
            <strong>This project was purely educational; all rights belong to Nintendo and the Pokémon Company!</strong>
@@ -78,7 +83,7 @@ export default [
     <div class="paragraph center">
         <img class="pc-screenshot" src="img/projects/ZombieGame.gif" alt="The AI moving on its own." />
     </div>`, "#797d7a"),
-    new ProjectData("Mario Overlord", "Mario64 Remake", "img/projects/Mario.png", `
+    new ProjectData("Mario Overlord", "Mario64 Remake", "img/projects/Mario_Trailer.gif", `
     <div class="paragraph center">
         <div class="notice error">
            <strong>This project was purely educational; all rights belong to Nintendo!</strong>

@@ -17,7 +17,7 @@
       <br />
       <br />I'm <strong>currently looking for a job</strong> as a Game developer
       with a preference for either tool development and gameplay programming.
-      Feel free <router-link to="/contact">contact me</router-link>.
+      Feel free to <router-link to="/contact">contact me</router-link>.
       <br />
 
       <div style="margin-top: 20px; margin-bottom: 20px">
