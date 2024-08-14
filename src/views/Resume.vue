@@ -3,103 +3,150 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      I'm a passionate Belgian developer who has explored various facets of game
+      development. Without a doubt, it is <strong>the domain of AI</strong> that
+      truly interests me. Among the many aspects of AI development, I find
+      particular joy in crafting
+      <strong>behaviors and pathfinding algorithms</strong>. These areas allow
+      me to delve deeper into the intricacies of creating intelligent systems
+      that enhance the gaming experience. Another aspect of programming I enjoy
+      is the
+      <strong
+        >development of various tools, both in engine and outside of it</strong
+      >.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
+      <br />I'm <strong>currently looking for a job</strong> as a Game developer
+      with a preference for either tool development and gameplay programming.
+      Feel free <router-link to="/contact">contact me</router-link>.
       <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
 
-      <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a>
-        <div style="clear:both"></div>
+      <div style="margin-top: 20px; margin-bottom: 20px">
+        <a class="download-link" href="d/resume-en.pdf" target="_blank"
+          ><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a
+        >
+        <div style="clear: both"></div>
       </div>
     </div>
     <div class="photo">
       <img :src="`/img/resume-photo.png`" alt="Photo of Aaron" />
     </div>
 
-    <div style="clear:both"></div>
+    <div style="clear: both"></div>
 
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>Internship Junior Game Developer</h3>
+      <h4>Myron Games | Feb 2024 - July 2024</h4>
+      <ul>
+        <li>
+          <strong
+            >Work in an existing code base to implement new features</strong
+          >
+        </li>
+        <li><strong>Work in team and check in for daily stand-ups</strong></li>
+        <li><strong>Learn to debug and optimize a game in unity</strong></li>
+      </ul>
 
-      <div>It's classified so I can't speak about it.</div>
+      <h3>Internship Full-Stack Developer for Websites</h3>
+      <h4>Innovatus BE | Feb 2021 - Jun 2021</h4>
+      <ul>
+        <li>
+          <strong
+            >Make the Front- and backend of the angular jobs admin site</strong
+          >
+        </li>
+        <li>
+          <strong>Work in team and check in for weekly scrum meetings</strong>
+        </li>
+      </ul>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <h3>Maintenance of school</h3>
+      <h4>Sint-Maarten Campus | Jul 2018 - Jun 2023</h4>
+      <ul>
+        <li><strong>During Summer holidays help clean the school</strong></li>
+        <li>
+          <strong>Work in a team of 8 people to complete a large task</strong>
+        </li>
+      </ul>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
+      <h2>Educational History</h2>
 
-      <div>It's classified so I can't speak about it.</div>
+      <h3>Howest</h3>
+      <h4>Digital Arts & Entertainment | Okt 2021 - Jun 2024</h4>
+      <ul>
+        <li>Learned to Program with C++.</li>
+        <li>
+          Learned to work with various engines Learned the videogame pipeline
+        </li>
+      </ul>
 
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <h3>Hogent</h3>
+      <h4>Degree in Programming | Okt 2019 - Jun 2021</h4>
+      <ul>
+        <li>
+          <strong>
+            Learned full-stack development for android web and windows
+            applications.
+          </strong>
+        </li>
+        <li>
+          <strong>Learned about programming ethics and time management.</strong>
+        </li>
+      </ul>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
+      <h3>Howest</h3>
+      <h4>Digital Arts & Entertainment | Okt 2018 - Jun 2019</h4>
+      <ul>
+        <li>
+          <strong> Learned to Program with C++.</strong>
+        </li>
+        <li>
+          <strong>
+            Learned to think critically about problems and how to solve them
+          </strong>
+        </li>
+      </ul>
 
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <h3>Sint-Maarten Campus</h3>
+      <h4>Social & Technical Sciences | Sep 2012 - Jun 2018</h4>
+      <ul>
+        <li>
+          <strong>
+            Learned about various sciences such as: Biology, Chemistry, ...
+          </strong>
+        </li>
+        <li>
+          <strong> Learned how to communicate with people.</strong>
+        </li>
+      </ul>
 
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Technical</h3>
+        <SkillRate name="C#" :rate="4" />
+        <SkillRate name="C++" :rate="4" />
+        <SkillRate name="Unity" :rate="4" />
+        <SkillRate name="Software Development" :rate="3" />
+        <SkillRate name="Database Management" :rate="3" />
+        <SkillRate name="Website Development" :rate="2" />
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Non-Technical</h3>
+        <SkillRate name="Communication" :rate="4" />
+        <SkillRate name="Work Ethic" :rate="4" />
       </div>
-      <div style="clear:both" />
 
-      <h2>Education</h2>
-
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
-
-      <h2>Languages</h2>
-
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
-
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
-
-
-      <h2>Besides...</h2>
-      <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
-
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
-
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
-
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
-
+      <div class="skill-set">
+        <h3>Languages</h3>
+        <SkillRate name="English" :rate="4" />
+        <SkillRate name="Dutch" :rate="4" />
       </div>
+      <div style="clear: both" />
+      <h2>Special Diplomas</h2>
+      <div>Finished the Oracle Database course. (2020)</div>
     </div>
   </div>
 </template>
@@ -107,7 +154,6 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import SkillRate from "@/components/SkillRate.vue";
-
 
 export default defineComponent({
   name: "Resume",
@@ -146,7 +192,7 @@ h4 {
 }
 
 .download-link {
-  float:left;
+  float: left;
   margin-right: 50px;
 }
 
@@ -172,7 +218,7 @@ h4 {
   text-align: center;
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 620px) {
   .paragraph {
     float: left;
   }
@@ -185,7 +231,7 @@ h4 {
 
   .skill-set {
     float: left;
-    padding-right: 60px; 
+    padding-right: 60px;
   }
 }
 </style>

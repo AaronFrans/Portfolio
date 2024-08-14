@@ -64,6 +64,20 @@ export default [
         <img class="pc-screenshot" src="img/projects/List_Page.png" alt="The List screen made with the pokedex api" />
     </div>
     `, "#046115"),
+    new ProjectData("Zombie Survival", "Zombie Survival AI", "img/projects/ZombieGame.gif", `
+    <div class="paragraph">
+        <strong>Zombie Survival AI</strong> is a project where the goal was to make an AI able to survive against waves of zombies while only able to get info from a cone in front of the AI. I used a primitive blackboard to store the info while using a simple spiral pattern to explore the world.
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+        Source code available on <a href="https://github.com/AaronFrans/ZombieGame" target="_blank">GitHub</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/ZombieGame.gif" alt="The AI moving on its own." />
+    </div>`, "#797d7a"),
     new ProjectData("Mario Overlord", "Mario64 Remake", "img/projects/Mario.png", `
     <div class="paragraph center">
         <div class="notice error">
@@ -83,19 +97,5 @@ export default [
     <div class="paragraph center">
         <img class="pc-screenshot" src="img/projects/Mario.png" alt="Screenshot of Mario Jumping" />
         <img class="pc-screenshot" src="img/projects/Mario3.PNG" alt="Screenshot of Mario in front of a waterfall with a coin and the castle to the right of him" />
-    </div>`, "#e48246"),
-    new ProjectData("Zombie Survival", "Zombie Survival AI", "img/projects/ZombieGame.gif", `
-    <div class="paragraph">
-        <strong>Zombie Survival AI</strong> is a project where the goal was to make an AI able to survive against waves of zombies while only able to get info from a cone in front of the AI. I used a primitive blackboard to store the info while using a simple spiral pattern to explore the world.
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Source code available on <a href="https://github.com/AaronFrans/ZombieGame" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/ZombieGame.gif" alt="The AI moving on its own." />
-    </div>`, "#797d7a")
+    </div>`, "#e48246")
 ];
