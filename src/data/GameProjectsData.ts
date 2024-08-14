@@ -83,7 +83,7 @@ export default [
     <div class="paragraph center">
         <img class="pc-screenshot" src="img/projects/ZombieGame.gif" alt="The AI moving on its own." />
     </div>`, "#797d7a"),
-    new ProjectData("Mario Overlord", "Mario64 Remake", "img/projects/Mario_Trailer.gif", `
+    new ProjectData("Mario Overlord", "Mario64 Remake", "img/projects/Mario.png", `
     <div class="paragraph center">
         <div class="notice error">
            <strong>This project was purely educational; all rights belong to Nintendo!</strong>
