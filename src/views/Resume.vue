@@ -135,7 +135,7 @@
 
       <div class="skill-set">
         <h3>Non-Technical</h3>
-        <SkillRate name="Communication" :rate="4" />
+        <SkillRate name="Communication" :rate="3" />
         <SkillRate name="Work Ethic" :rate="4" />
       </div>
 
