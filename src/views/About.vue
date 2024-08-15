@@ -12,8 +12,8 @@
 
       <div style="margin-top: 20px">
         I've worked on
-        <router-link to="/game-projects">various projects</router-link> that
-        revolve around both AI in games as well as tools for games.
+        <router-link to="/">various projects</router-link> that revolve around
+        both AI in games as well as tools for games.
       </div>
 
       <div style="margin-top: 40px">
