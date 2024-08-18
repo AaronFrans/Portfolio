@@ -76,9 +76,8 @@
       <h4>Digital Arts & Entertainment | Okt 2021 - Jun 2024</h4>
       <ul>
         <li>Learned to Program with C++.</li>
-        <li>
-          Learned to work with various engines Learned the videogame pipeline
-        </li>
+        <li>Learned to work with various engines</li>
+        <li>Learned the videogame pipeline</li>
       </ul>
 
       <h3>Hogent</h3>
