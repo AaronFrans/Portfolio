@@ -130,6 +130,10 @@
         <SkillRate name="C#" :rate="4" />
         <SkillRate name="C++" :rate="4" />
         <SkillRate name="Unity" :rate="4" />
+        <SkillRate name="Javascript" :rate="4" />
+        <SkillRate name="Python" :rate="4" />
+        <SkillRate name="SQL" :rate="4" />
+        <SkillRate name="Angular" :rate="4" />
         <SkillRate name="Software Development" :rate="3" />
         <SkillRate name="Database Management" :rate="3" />
         <SkillRate name="Website Development" :rate="2" />
