@@ -84,7 +84,7 @@
       </ul>
 
       <h3>Hogent</h3>
-      <h4>Degree in Programming | Oct 2019 - Jun 2021</h4>
+      <h4>Associate Degree in Programming | Oct 2019 - Jun 2021</h4>
       <ul>
         <li>
           <strong>
