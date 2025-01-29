@@ -76,15 +76,15 @@
       <h2>Educational History</h2>
 
       <h3>Howest</h3>
-      <h4>Digital Arts & Entertainment | OCt 2021 - Jun 2024</h4>
+      <h4>Digital Arts & Entertainment | Oct 2021 - Jun 2024</h4>
       <ul>
-        <li>Learned to Program with C++.</li>
-        <li>Learned to work with various engines</li>
-        <li>Learned the videogame pipeline</li>
+        <li><strong>Learned to Program with C++.</strong></li>
+        <li><strong>Learned to work with various engines</strong></li>
+        <li><strong>Learned the videogame pipeline</strong></li>
       </ul>
 
       <h3>Hogent</h3>
-      <h4>Degree in Programming | OCt 2019 - Jun 2021</h4>
+      <h4>Degree in Programming | Oct 2019 - Jun 2021</h4>
       <ul>
         <li>
           <strong>
@@ -98,7 +98,7 @@
       </ul>
 
       <h3>Howest</h3>
-      <h4>Digital Arts & Entertainment | OCt 2018 - Jun 2019</h4>
+      <h4>Digital Arts & Entertainment | Oct 2018 - Jun 2019</h4>
       <ul>
         <li>
           <strong> Learned to Program with C++.</strong>
